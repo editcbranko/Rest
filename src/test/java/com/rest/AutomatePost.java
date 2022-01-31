@@ -59,6 +59,7 @@ public class AutomatePost {
 
     @Test
     public void validate_post_request_non_bdd_style() {
+        System.out.println("Neki koments!!!");
         String payload = "{\n" +
                 "    \"workspace\": {\n" +
                 "        \"name\": \"myFirstWorkspace2\",\n" +
