@@ -21,6 +21,7 @@ public class AutomateHeaders {
     public void multiple_headers() throws IOException {
         Header header = new Header("header", "value1");
         Header matchHeader = new Header("x-mock-match-request-headers", "header");
+        System.out.println("Bane");
         given().
                 baseUri("https://8f6d7436-aba9-4c1f-bc81-fdc881a11fb1.mock.pstmn.io").
                 header(header).
